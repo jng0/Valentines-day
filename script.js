@@ -40,14 +40,14 @@ function flashRainbowColors(callback) {
     }, 2000); // Flash colors for 2 seconds
 }
 
-// Function to display the frogspin.gif initially
+// Function to display the spinningfrog.gif initially
 function displayCat() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
     var frogImage = new Image();
     // Set the source (file path) for the cat image
-    frogImage.src = 'frogspin.gif'; // Assuming the cat image is named "frogspin.gif"
+    frogImage.src = 'spinningfrog.gif'; // Assuming the cat image is named "spinningfrog.gif"
     // Set alternative text for the image (for accessibility)
     frogImage.alt = 'Frog';
     // When the cat image is fully loaded, add it to the image container
@@ -76,5 +76,5 @@ function displayCatHeart() {
     };
 }
 
-// Display the frogspin.gif initially
+// Display the spinningfrog.gif initially
 displayCat();

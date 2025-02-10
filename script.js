@@ -64,11 +64,11 @@ function displayCatHeart() {
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the frogg
     var frogHeartImage = new Image();
-    // Set the source (file path) for the frogg image
-    frogHeartImage.src = 'froggg.gif'; // Assuming the frogg image is named "froggg.gif"
+    // Set the source (file path) for the froggg image
+    frogHeartImage.src = 'froggg.gif'; // Assuming the froggg image is named "froggg.gif"
     // Set alternative text for the image (for accessibility)
     frogHeartImage.alt = 'Cat Heart';
-    // When the frogg image is fully loaded, add it to the image container
+    // When the froggg image is fully loaded, add it to the image container
     frogHeartImage.onload = function() {
         imageContainer.appendChild(frogHeartImage);
         // Hide the options container

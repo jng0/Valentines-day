@@ -7,7 +7,7 @@ function selectOption(option) {
         // Flash rainbow colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
-            displayCatHeart(); // Display the frogg.gif
+            displayCatHeart(); // Display the froggg.gif
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
@@ -56,7 +56,7 @@ function displayCat() {
     };
 }
 
-// Function to display the frogg.gif
+// Function to display the froggg.gif
 function displayCatHeart() {
     // Clear existing content in the image container
     document.getElementById('image-container').innerHTML = '';
@@ -65,7 +65,7 @@ function displayCatHeart() {
     // Create a new Image element for the frogg
     var frogHeartImage = new Image();
     // Set the source (file path) for the frogg image
-    frogHeartImage.src = 'frogg.gif'; // Assuming the frogg image is named "frogg.gif"
+    frogHeartImage.src = 'froggg.gif'; // Assuming the frogg image is named "froggg.gif"
     // Set alternative text for the image (for accessibility)
     frogHeartImage.alt = 'Cat Heart';
     // When the frogg image is fully loaded, add it to the image container
